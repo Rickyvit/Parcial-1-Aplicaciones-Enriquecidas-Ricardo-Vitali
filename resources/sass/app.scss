@@ -1,0 +1,422 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+  
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans'!important;
+  }
+  html{
+    margin:0;
+    padding:0;
+    max-height:100vh;
+  }
+  
+  body {
+    background: rgba(1, 1, 1, 0);
+    height: 100%;
+  }
+ /* Productos */
+
+
+.productos{
+  text-align: center;
+  justify-content: center;
+
+}
+
+  .articuloCard{
+    display: inline-block;
+    width: 300px;
+    margin: 0px 15px 0px 15px;
+  }
+
+  .articuloCard img{
+    width: 300px;
+    height: 280px;
+  }
+
+  .articuloDetalles{
+    display: grid;
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .bi-plus-circle{
+    font-size: 15px;
+  }
+
+  /* Panel de Administracion */
+
+  h2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(44, 21, 109);
+      color: whitesmoke;
+  }
+
+/* Relleno */
+
+a:visited{
+  color: whitesmoke;
+}
+
+a{
+  color: whitesmoke;
+}
+
+  .navbar{
+    background-color: #010036 !important;
+  }
+
+  header{
+    display: flex;
+    background-image: url(../../public/images/fondoBanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    color: whitesmoke;
+  }
+
+
+  .contenedorPastilla{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #d1d1d142;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .contenidoPastilla{
+    margin: 0px 20px 0px 20px;
+  }
+
+
+  .contenidoPastilla h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .contenidoPastilla p{
+    font-size: 14px;
+    margin: 0px 20px 0px 20px;
+  }
+  .contenidoPastilla i{
+    font-size: 65px;
+  }
+
+/*  */
+  .panelContenedor{
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: rgb(238, 238, 238);
+    color: #333333;
+    width: 80%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .panelContenedor table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .panelContenedor th{
+    border: 1px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .panelContenedor a{
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+
+  .botonEditar{
+    border-radius: 5px;
+    border: none;
+    background-color: #1b9bff;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+
+ .inicioA{
+   color: #007bff !important;
+ }
+
+  /* Footer*/
+
+footer {
+  height: 100%;
+  width: 100%;
+  padding: 30px 0px;
+  color: whitesmoke;
+  background-color: #1c1920;
+
+
+}
+
+footer ul {
+  line-height: 30px;
+  display: contents;
+  list-style-type: none;
+
+}
+
+footer a {
+  color: white;
+
+}
+
+
+.footerUno {
+  margin-left: 10%;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  background: #1b9bff;
+  transition: .7s;
+}
+
+#redesSociales {
+
+  text-align: center;
+}
+
+#redesSociales a {
+  padding: 0px 20px;
+}
+
+#redesSociales p {
+  margin-top: 25px;
+
+}
+
+#redesSociales ul li {
+
+  display: inline-block;
+  font-size: 60px;
+}
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+  
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans'!important;
+  }
+
+ /* Productos */
+
+  .articuloCard{
+    display: inline-block;
+    width: 300px;
+  }
+
+  .articuloCard img{
+    width: 300px;
+    height: 280px;
+  }
+
+  .articuloDetalles{
+    display: grid;
+    padding-top: 20px;
+  }
+
+  .bi-plus-circle{
+    font-size: 15px;
+  }
+
+  /* Panel de Administracion */
+
+  h2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(44, 21, 109);
+      color: whitesmoke;
+  }
+
+/* Relleno */
+
+  .navbar{
+    background-color: rgb(1, 0, 54);
+  }
+
+
+
+  .contenedorPastilla{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #d1d1d142;
+  }
+  
+  .contenidoPastilla{
+    margin: 0px 20px 0px 20px;
+  }
+
+/*  */
+  .panelContenedor{
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-left: 10%;
+    background-color: rgb(207, 207, 207);
+    color: #333333;
+    width: 80%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .panelContenedor table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .panelContenedor th{
+    border: 1px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .panelContenedor a{
+    border-radius: 5px;
+    border: none;
+    background-color: #1b9bff;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+
+  .botonEditar{
+    border-radius: 5px;
+    border: none;
+    background-color: #1b9bff;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+
+  .creacion{
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745 !important;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+
+  .crearEditar{
+    width: 50%;
+    justify-content: center;
+  }
+ 
+
+  /* Footer*/
+
+footer {
+  margin-top: 30px;
+  width: 100%;
+  padding: 30px 0px;
+  color: whitesmoke;
+  background-color: #1c1920;
+
+
+}
+
+footer ul {
+  line-height: 30px;
+  display: contents;
+  list-style-type: none;
+
+}
+
+footer a {
+  color: white;
+
+}
+
+
+.footerUno {
+  margin-left: 10%;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  background: #1b9bff;
+  transition: .7s;
+}
+
+#redesSociales {
+
+  text-align: center;
+}
+
+#redesSociales a {
+  padding: 0px 20px;
+}
+
+#redesSociales p {
+  margin-top: 25px;
+
+}
+
+#redesSociales ul li {
+
+  display: inline-block;
+  font-size: 20px;
+}
+
+.dropeo{
+  color: #212529 !important;
+}
+
